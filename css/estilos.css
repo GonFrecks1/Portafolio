@@ -83,8 +83,8 @@ a {
 
 /* Acerca de */
 .foto-perfil {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 250px;
 }
 
 .acerca-de .foto .nombre {
@@ -102,6 +102,9 @@ a {
 }
 
 .acerca-de .info .resumen {
+  letter-spacing: 1px;
+}
+.resumen {
   letter-spacing: 1px;
 }
 
