@@ -36,6 +36,18 @@ imagenes.forEach((imagen) => {
       case "img-7":
         descripcionImagen.innerHTML = "MVC: ";
         break;
+      case "img-8":
+        descripcionImagen.innerHTML =
+          "Modificación al sistema para que funcione en Farmacia, se instalo DataBase con XAMPP y exe con C# en farmacia del pueblo";
+        break;
+      case "img-9":
+        descripcionImagen.innerHTML = "Ticket de corte de caja.";
+        // "Reporte de Existencias Mínimas: filtra por <= a cantidad.";
+        break;
+      case "img-10":
+        descripcionImagen.innerHTML =
+          "Reporte de Ventas: Filtra por periodo o estableciendo rango de fechas.";
+        break;
       default:
         break;
     }

@@ -30,6 +30,17 @@
 
             <!-- Enlaces -->
             <nav class="menu col-12 col-lg-auto d-flex align-items-stretch">
+                
+                <a href="#AcercaDe" class="c2 px-4 d-flex align-items-center text-center text-white text-decoration-none">
+                    <div class="w-100">
+                        <span>Acerca de</span>
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
 
                 <a href="#Portafolio" class="c1 px-4 d-flex align-items-center text-center text-white text-decoration-none">
                     <div class="w-100">
@@ -42,16 +53,6 @@
                         </div>
                     </div>
                     
-                </a>
-                <a href="#AcercaDe" class="c2 px-4 d-flex align-items-center text-center text-white text-decoration-none">
-                    <div class="w-100">
-                        <span>Acerca de</span>
-                        <div class="icono">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                            </svg>
-                        </div>
-                    </div>
                 </a>
                 <a href="#Contacto" class="c3 px-4 d-flex align-items-center text-center text-white text-decoration-none">
                     <div class="w-100">
@@ -72,13 +73,13 @@
                 <div class="carousel slide" data-bs-ride="carousel" id="slider">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="./img/slide1.jpg" alt="">
+                            <img class="d-block w-100" src="./img/slide1.jpg" alt="" height="500px">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/slide2.jpg" alt="">
+                            <img class="d-block w-100" src="./img/slide2.jpg" alt=""  height="500px">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/slide3.jpg" alt="">
+                            <img class="d-block w-100" src="./img/slide3.jpg" alt=""  height="500px">
                         </div>
                     </div>
 
@@ -122,103 +123,10 @@
     <!-- main -->
     <main>
         <div class="container">
-            <!-- Portafolio -->
-            <div class="row portafolio g-0 px-4 mb-5" id="Portafolio">
-                <div class="col">
-                    <a href="#logo">
-                        <h2 class="titulo text-center py-5">Portafolio</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-                          </svg>
-                    </a>
-                    <div class="row galeria">
-                        <h4 class="titulo"><strong>Sistema de ventas Desktop</strong></h4>
-                        <!-- Imagen #1 -->
-                        <div class="contenedor-imagen mb-4 col-6 col-lg-4">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
-                                <img src="./img/base-de-datos.png" id="img-1" class="d-block w-100" alt="">
-                            </a>
-                        </div>
-                        
-                        <!-- Imagen #2 -->
-                        <div class="contenedor-imagen mb-4 col-6 col-lg-4">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
-                                <img src="./img/captura-de-articulos.png" id="img-2" class="d-block w-100" alt="">
-                            </a>
-                        </div>
-                        
-                        <!-- Imagen #3 -->
-                        <div class="contenedor-imagen mb-4 col-12 col-lg-4">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
-                                <img src="./img/venta-de-articulos.png" id="img-3" class="d-block w-100" alt="">
-                            </a>
-                        </div>
-                        <h4 class="titulo"><strong>Tutorial: Sistema de MVC</strong></h4>
-                        <!-- Imagen #4 -->
-                        <div class="contenedor-imagen mb-4 col-6 col-lg-4">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
-                                <img src="./img/MVC-Shopping-1.png" id="img-4" class="d-block w-100" alt="">
-                            </a>
-                        </div>
-                        
-                        <!-- Imagen #5 -->
-                        <div class="contenedor-imagen mb-4 col-6 col-lg-4">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
-                                <img src="./img/MVC-Shopping-2.png" id="img-5" class="d-block w-100" alt="">
-                            </a>
-                        </div>
-                        
-                        <!-- Imagen #6 -->
-                        <div class="contenedor-imagen mb-4 col-12 col-lg-4">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
-                                <img src="./img/MVC-Shopping-3.png" id="img-6" class="d-block w-100" alt="">
-                            </a>
-                        </div>
-                        
-                        <h4 class="titulo"><strong>JQuery: control DataTable JS</strong></h4>
-                        
-                        <!-- Imagen #7 -->
-                        <div class="contenedor-imagen mb-4 col-12 col-lg-4">
-                            <a href="./Pages/DataTable.html">
-                                <img src="./img/DataTable.JS.png" id="img-6" class="d-block w-100" alt="">
-                            </a>
-                        </div>
-                        
-                    </div>
 
-                    <!-- Ventana Modal -->
-                    <div 
-                        class="modal fade" 
-                        id="modal-galeria"
-                        tabindex="-1"
-                        aria-labelledby="modal-galeria"
-                        aria-hidden="true"    
-                    >
-                    
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                        
-                                <!-- Encabezado de la caja -->
-                                <div class="modal-header">
-                                    <h5 class="modal-title"></h5>
-                                    <buton class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></buton>
-                        
-                                </div>
 
-                                <!-- Cuerpo de la caja -->
-                                <div class="modal-body" style="max-width: 1000px;">
-                                    <div class="mb-2" id="descripcion-imagen">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, tempore.</div>
-                                    <img src="./img/base-de-datos.png" id="imagen-modal" alt="">
-                                </div>
-                        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Acerca de -->
-            <div class="row acerca-de align-items-center px-4 mb-5" id="AcercaDe">
+              <!-- Acerca de -->
+              <div class="row acerca-de align-items-center px-4 mb-5" id="AcercaDe">
                 
                 <h2 class="titulo text-center mb-3 text-lg-start">Acerca de</h2>
 
@@ -246,7 +154,13 @@
                    <hr>
                     <div class="row">
                         <div class=" col-3">
-                            <p class="label">C#</p>
+                            <p class="label">
+
+                                <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg> C#
+
+                            </p>
                         </div>
                         <div class="col-9">
                             <div class="progress mb-3">
@@ -259,7 +173,12 @@
                     </div>
                     <div class="row">
                         <div class=" col-3">
-                            <p class="label">SQL Server</p>
+                            <p class="label">
+
+                                <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg> SQL Server
+                            </p>
                         </div>
                         <div class="col-9">
                             <div class="progress mb-3">
@@ -271,7 +190,11 @@
                     </div>
                     <div class="row">
                         <div class=" col-3">
-                            <p class="label">Javascript</p>
+                            <p class="label">
+                                <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg> Javascript
+                            </p>
                         </div>
                         <div class="col-9">
                             <div class="progress mb-3">
@@ -283,19 +206,11 @@
                     </div>
                     <div class="row">
                         <div class=" col-3">
-                            <p class="label">MySql</p>
-                        </div>
-                        <div class="col-9">
-                            <div class="progress mb-3">
-                                <div class="progress-bar text-start" role="progressbar" aria-valuemin="0" aria-valuemax="100"
-                                    aria-valuenow="50" style="width:50%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class=" col-3">
-                            <p class="label">Boostrap 5</p>
+                            <p class="label">
+                                <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg> MySql
+                            </p>
                         </div>
                         <div class="col-9">
                             <div class="progress mb-3">
@@ -305,15 +220,72 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class=" col-3">
+                            <p class="label">
+                                <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg> Boostrap 5
+                            </p>
+                        </div>
+                        <div class="col-9">
+                            <div class="progress mb-3">
+                                <div class="progress-bar text-start" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                    aria-valuenow="70" style="width:70%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class=" col-3">
+                            <p class="label">
+                                <svg class="text-warning" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg> GIT
+                            </p>
+                        </div>
+                        <div class="col-9">
+                            <div class="progress mb-3">
+                                <div class="progress-bar text-start" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                    aria-valuenow="40" style="width:40%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                   
                 </div>
             </div>
-                
+
+
+            
+          
+            
+            
             <!-- Experiencia Laboral -->
-                <div class="col-12 mt-5 info p-3 resumen">
-                    <h3 class="titulo mb-4"><span class="">Experiencia laboral</span></h3>
+            <div class="col-12 mt-5 info p-3 resumen">
+                <h3 class="titulo mb-4"><span class="">Experiencia laboral</span></h3>
                     <p>CIIPDTEC 2015 - 2020, Navojoa, Son. Méx.</p>
-                    <ul>
+                    <p>
+                        CIIPDETEC es proveedora de Celulosa y Corrugados de Sonora S.A. de C.V. 
+                        <a href="http://www.cecso.mx/" target="_blank">(CECSO)</a>, todos los programas hechos y modificaciones a sistemas
+                        son desarrollados para CECSO
+                    </p>
+                    
+                   <p><strong>Forma de Trabajo: </strong></p>
+                        <ol class="bg-light">
+                            <li>Analisis de requimientos,</li>
+                            <li>Planteamiento de los cambios en documento</li>
+                            <li>Autorización de documento por usuarios y gerencia (los cambios a realizar)</li>
+                            <li>Desarrollo</li>
+                            <li>Pruebas con usuario(s)</li>
+                            <li>Revisión con especialista del área</li>
+                            <li>Respaldo de fuente en git interno (Herramienta SourceTree) </li>
+                            <li>Entrega de exe o publish a especialista </li>
+                        </ol>
+
+                     <p><strong>Trabajos realizados CIIPDETEC-CECSO: </strong></p>
+                    <ul class="bg-light">
+                        
                         <li>Colaboración en desarrollo de Sistema para Administración de Riesgos y Estrategias.</li>
                         <li>Desarrolle Sistema para captura de consumo de energeticos: agua, electricidad, etc.</li>
                         <li>Desarrolle Sistema para acomodo de cortes de papel en máquinas cortadoras.</li>
@@ -324,13 +296,135 @@
                         <li>Atención de fallas en modulos diversos (regularmente del área en la que se me asigno)</li>
                         <li>Creación de reportes informativos con report builder 3.0 (MSSQL) y Report Viewer (Visual Studio)</li>
                     </ul>
-                    <p>BINDUS3 marzo-junio 2021, Navojoa, Son. Méx.</p>
-                    <ul>
-                        <li>Modificación a sistema MVC para administración de tickes de soporte informatico (C#-SQL Server-JS).</li>
-                        <li>Se agrego complemento CartaPorte a sistema de facturación SAT: especificación de traslado de mercancías (C#-SQL
-                            Server-JS)</li>
+                    <p><strong>Trabajos realizados BINDUS3 marzo-junio 2021, Navojoa, Son. Méx.</strong></p>
+                    <ul class="bg-light">
+                        <li>Mantenimiento a sistema MVC para administración de tickes de soporte informatico (C#-SQL Server-Javascript):<br>
+                            <span style="color: #005385; font-weight: 600;">Ajuste para envio de correos, roles de usuario, modal para captura de empresa, cantidad de tickets asignados a usuario soporte, etc.</span>
+                            .</li>
+                        <li>Se agrego complemento CartaPorte a sistema de facturación SAT (especificación de traslado de mercancías (C#-SQL
+                            Server-JS))<br>
+                            <span style="color: #005385; font-weight: 600;">Se añadio todos los apartados y campos y se importaron los catalogos a Sql Server (Bienes y Servicios, Tipo de Material, Estado, Ciudad, Municipio, Localidad, etc) que pide el SAT en la captura de CartaPorte: Mercacías, Transporte, Operador, Ubicación, etc. </span>
+                        </li>
                     </ul>
                 </div>
+
+                  <!-- Portafolio -->
+            <div class="row portafolio g-0 px-4 mb-5" id="Portafolio">
+                <div class="col">
+                    <a href="#logo">
+                        <h2 class="titulo text-center py-5">Portafolio</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                          </svg>
+                    </a>
+                    <div class="row galeria">
+                        <h5>Sistema de ventas Desktop: Boutique</h5>
+                        <!-- Imagen #1 -->
+                        <div class="contenedor-imagen mb-4 col-6 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/base-de-datos.png" id="img-1" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        
+                        <!-- Imagen #2 -->
+                        <div class="contenedor-imagen mb-4 col-6 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/captura-de-articulos.png" id="img-2" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        
+                        <!-- Imagen #3 -->
+                        <div class="contenedor-imagen mb-4 col-12 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/venta-de-articulos.png" id="img-3" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        <h5>Tutorial: Sistema de MVC</h5>
+                        <!-- Imagen #4 -->
+                        <div class="contenedor-imagen mb-4 col-6 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/MVC-Shopping-1.png" id="img-4" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        
+                        <!-- Imagen #5 -->
+                        <div class="contenedor-imagen mb-4 col-6 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/MVC-Shopping-2.png" id="img-5" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        
+                        <!-- Imagen #6 -->
+                        <div class="contenedor-imagen mb-4 col-12 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/MVC-Shopping-3.png" id="img-6" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        
+                        <h5>JQuery: control DataTable JS</h5>
+                        
+                        <!-- Imagen #7 -->
+                        <div class="contenedor-imagen mb-4 col-12 col-lg-4">
+                            <a href="./Pages/DataTable.html">
+                                <img src="./img/DataTable.JS.png" id="img-7" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+
+                        <h5>Update a Sistema de Ventas: ajuste para Farmacia Oct-Sep 2021</h5>
+                        
+                         <!-- Imagen #8 -->
+                         <div class="contenedor-imagen mb-4 col-12 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/capt-art-farmacia.png" id="img-8" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        
+                         <!-- Imagen #9 -->
+                         <div class="contenedor-imagen mb-4 col-12 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/ticket_corte.png" id="img-9" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+
+                         <!-- Imagen #10 -->
+                         <div class="contenedor-imagen mb-4 col-12 col-lg-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-galeria">
+                                <img src="./img/rep-ventas.png" id="img-10" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Ventana Modal -->
+                    <div 
+                        class="modal fade" 
+                        id="modal-galeria"
+                        tabindex="-1"
+                        aria-labelledby="modal-galeria"
+                        aria-hidden="true"    
+                    >
+                    
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                        
+                                <!-- Encabezado de la caja -->
+                                <div class="modal-header">
+                                    <h5 class="modal-title"></h5>
+                                    <buton class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></buton>
+                        
+                                </div>
+
+                                <!-- Cuerpo de la caja -->
+                                <div class="modal-body text-center" style="max-width: 1000px;">
+                                    <div class="mb-2" id="descripcion-imagen">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, tempore.</div>
+                                    <img src="./img/base-de-datos.png" id="imagen-modal" alt="">
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Estudios -->
             <div class="col-12 info p-3 resumen">
@@ -340,7 +434,7 @@
                     <div class="col-12 col-lg-4 my-5">
                         <div class="card bg-secondary text-light">
                             <div class="card-header">
-                                <h5> Ing. en Sistemas de la Información</h5>
+                                <h5> Ing. en Tecnologías de la Información</h5>
                             </div>
                             <div class="card-body">
                                 <h6 class="card-title">Universidad Tecnológica de Etchojoa</h6>
